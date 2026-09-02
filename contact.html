@@ -1,121 +1,518 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Umme Mariya — Certified MERN Stack Developer, Web Designer & Developer, Trainer, SEO Expert and NSDA Certified Professional.">
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Contact Umme Mariya, Frontend Developer specializing in modern, responsive and user-friendly websites and web interfaces."
+    />
+    <meta
+      name="keywords"
+      content="Umme Mariya, Frontend Developer, Web Developer, HTML, CSS, JavaScript, Responsive Web Design, Frontend Development"
+    />
+    <meta name="author" content="Umme Mariya" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#e8edf2" />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website">
-
-    <meta property="og:url" content="https://ummemariya112-hub.github.io/Personal-Portfolio/">
-
-    <meta property="og:title" content="Umme Mariya| MERN Stack Developer">
-
-    <meta property="og:description"
-        content="Certified MERN Stack Developer, Web Designer & Developer, Trainer and NSDA Certified Professional.">
-
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/322729065?v=4">
-
-    <meta property="og:image:alt" content="Umme Mariya - MERN Stack Developer">
-
-    <meta property="og:site_name" content="Umme Mariya">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Contact | Umme Mariya | Frontend Developer"
+    />
+    <meta
+      property="og:description"
+      content="Contact Umme Mariya, Frontend Developer, for modern, responsive and user-friendly web development projects."
+    />
+    <meta
+      property="og:url"
+      content="https://github.com/umme-mariya112"
+    />
+    <meta
+      property="og:image"
+      content="https://avatars.githubusercontent.com/u/322729065?v=4"
+    />
+    <meta
+      property="og:image:alt"
+      content="Umme Mariya - Frontend Developer"
+    />
+    <meta property="og:site_name" content="Umme Mariya" />
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Contact | Umme Mariya | Frontend Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Contact Umme Mariya, Frontend Developer, for modern, responsive and user-friendly web development projects."
+    />
+    <meta
+      name="twitter:image"
+      content="https://avatars.githubusercontent.com/u/322729065?v=4"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Umme Mariya - Frontend Developer"
+    />
 
-    <meta name="twitter:title" content="Umme Mariya | MERN Stack Developer">
+    <title>Contact | Umme Mariya | Frontend Developer</title>
 
-    <meta name="twitter:description"
-        content="Certified MERN Stack Developer, Web Designer & Developer, Trainer and NSDA Certified Professional.">
-
-    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/322729065?v=4">
-
-    <title>Umme Mariya | MERN Stack Developer</title>
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <!-- Canonical -->
+    <link
+      rel="canonical"
+      href="https://faysalbyte.github.io/portfolio/contact.html"
+    />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/322729065?v=4" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="https://avatars.githubusercontent.com/u/322729065?v=4"
+      type="image/x-icon"
+    />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
 
-<body>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- =========================
-         BACKGROUND
-    ========================== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-    <div class="background">
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="stars"></div>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Umme Mariya home">
+        Umme<span class="brand-dots" aria-hidden="true">..</span>
+      </a>
+
+      <div class="nav-links" aria-label="Primary navigation">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="skills.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <button
+        type="button"
+        class="menu-button"
+        id="menuButton"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+    </nav>
+
+    <div
+      class="mobile-menu"
+      id="mobileMenu"
+      aria-label="Mobile navigation"
+      aria-hidden="true"
+    >
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="skills.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
     </div>
 
+    <main class="contact-page">
+      <section class="hero-section" aria-labelledby="contact-title">
+        <div class="hero-content">
+          <span class="eyebrow">LET'S CONNECT</span>
 
-    <!-- =========================
-         NAVBAR
-    ========================== -->
+          <h1 id="contact-title">
+            Let's build something
+            <span>amazing.</span>
+          </h1>
 
-    <header class="navbar">
+          <p>
+            Have a project, business idea, or collaboration opportunity? Send me
+            a message and I'll get back to you as soon as possible.
+          </p>
+        </div>
 
-        <a href="index.html" class="brand">
-            Mariya<span>.</span>
+        <a
+          class="whatsapp-card"
+          href="https://wa.me/8801832919752"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Chat with Umme Mariya on WhatsApp"
+        >
+          <div class="water-ring ring-one"></div>
+          <div class="water-ring ring-two"></div>
+          <div class="water-ring ring-three"></div>
+
+          <div class="whatsapp-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img">
+              <path
+                d="M19.11 17.19c-.27-.14-1.61-.79-1.86-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.92 2.93 4.65 4.11.65.28 1.16.45 1.56.57.65.21 1.24.18 1.71.11.52-.08 1.61-.66 1.84-1.3.23-.64.23-1.19.16-1.3-.07-.11-.25-.18-.52-.32z"
+              />
+              <path
+                d="M16.02 3.2c-7.05 0-12.78 5.73-12.78 12.78 0 2.25.59 4.36 1.62 6.19L3.1 28.8l6.78-1.73a12.72 12.72 0 0 0 6.14 1.58h.01c7.04 0 12.77-5.73 12.77-12.77C28.8 8.93 23.07 3.2 16.02 3.2zm0 23.31h-.01a10.57 10.57 0 0 1-5.39-1.47l-.39-.23-4.02 1.03 1.07-3.91-.25-.4a10.59 10.59 0 1 1 8.99 4.98z"
+              />
+            </svg>
+          </div>
+
+          <div class="whatsapp-content">
+            <span class="whatsapp-action">
+              Tap to start a conversation →
+            </span>
+          </div>
         </a>
+      </section>
 
+      <section class="form-section" aria-labelledby="form-title">
+        <div class="section-heading">
+          <span class="eyebrow">CONTACT FORM</span>
 
-        <nav class="nav-links" aria-label="Main navigation">
+          <h2 id="form-title">Send me a message</h2>
 
-            <a href="index.html" class="active">
-                Home
-            </a>
+          <p>
+            Fill in the required information below. Your message will be
+            delivered directly to my email.
+          </p>
+        </div>
 
-            <a href="skills.html">
-                Skills
-            </a>
+        <div class="form-card">
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/mnpqdbev"
+            method="POST"
+            novalidate
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Contact Message — Umme Mariya"
+            />
 
-            <a href="portfolio.html">
-                Portfolio
-            </a>
+            <input type="hidden" name="_captcha" value="false" />
 
-            <a href="contact.html">
-                Contact
-            </a>
+            <input type="hidden" name="_template" value="table" />
 
-        </nav>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://faysalbyte.github.io/portfolio/contact.html"
+            />
 
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">
+                  Name <span aria-hidden="true">*</span>
+                </label>
 
-        <!-- Mobile Menu Button -->
+                <div class="input-shell">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="name"
+                    required
+                    minlength="2"
+                    placeholder=" "
+                    aria-describedby="nameError"
+                  />
 
-        <button class="menu-button" id="menuButton" aria-label="Open navigation menu" aria-expanded="false"
-            type="button">
+                  <span
+                    class="typing-placeholder name-placeholder"
+                    aria-hidden="true"
+                  >
+                    Your name<span class="orange-dot">.</span
+                    ><span class="red-dot">.</span>
+                  </span>
+                </div>
 
-            <span></span>
-            <span></span>
-            <span></span>
+                <span class="error-message" id="nameError"></span>
+              </div>
 
-        </button>
+              <div class="field">
+                <label for="email">
+                  Email <span aria-hidden="true">*</span>
+                </label>
 
-    </header>
-<div class="mobile-menu" id="mobileMenu">
-    <a href="index.html">Home</a>
-    <a href="skills.html">Skills</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-</div>
+                <div class="input-shell">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    placeholder="you@example.com"
+                    aria-describedby="emailError"
+                  />
+                </div>
 
-<script src="coming-soon.js"></script>
+                <span class="error-message" id="emailError"></span>
+              </div>
 
-</body>
+              <div class="field">
+                <label for="whatsapp">
+                  WhatsApp Number
+                  <span class="optional">(optional)</span>
+                </label>
+
+                <div class="input-shell phone-shell">
+                  <span class="country-prefix">+</span>
+
+                  <input
+                    type="tel"
+                    id="whatsapp"
+                    name="whatsapp"
+                    autocomplete="tel"
+                    inputmode="tel"
+                    placeholder="880 1832 919752"
+                  />
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="country">
+                  Country <span aria-hidden="true">*</span>
+                </label>
+
+                <div class="input-shell select-shell">
+                  <select
+                    id="country"
+                    name="country"
+                    required
+                    aria-describedby="countryError"
+                  >
+                    <option value="" selected disabled>
+                      Select your country
+                    </option>
+
+                    <!-- Existing country options remain unchanged -->
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Canada">Canada</option>
+                    <option value="China">China</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="India">India</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="South Korea">South Korea</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="United Arab Emirates">
+                      United Arab Emirates
+                    </option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="Vietnam">Vietnam</option>
+                  </select>
+                </div>
+
+                <span class="error-message" id="countryError"></span>
+              </div>
+
+              <div class="field field-full">
+                <label for="subject">Subject</label>
+
+                <div class="input-shell">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    autocomplete="off"
+                    placeholder=" "
+                  />
+
+                  <span
+                    class="typing-placeholder subject-placeholder"
+                    aria-hidden="true"
+                  >
+                    Your subject<span class="orange-dot">.</span
+                    ><span class="red-dot">.</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="field field-full">
+                <label for="message">
+                  Message <span aria-hidden="true">*</span>
+                </label>
+
+                <div class="input-shell textarea-shell">
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    minlength="10"
+                    rows="7"
+                    placeholder=" "
+                    aria-describedby="messageError"
+                  ></textarea>
+
+                  <span
+                    class="typing-placeholder message-placeholder"
+                    aria-hidden="true"
+                  >
+                    Write<span class="orange-dot">.</span
+                    ><span class="red-dot">.</span>
+                  </span>
+                </div>
+
+                <span class="error-message" id="messageError"></span>
+              </div>
+            </div>
+
+            <div class="form-footer">
+              <p class="required-note"><span>*</span> Required fields</p>
+
+              <button
+                class="activate"
+                id="submitButton"
+                type="submit"
+                aria-label="Send message"
+              >
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 16 16">
+                    <use href="#circle"></use>
+                  </svg>
+
+                  <svg viewBox="0 0 12 12">
+                    <use href="#arrow"></use>
+                  </svg>
+
+                  <svg viewBox="0 0 12 12">
+                    <use href="#check"></use>
+                  </svg>
+                </span>
+
+                <ul aria-hidden="true">
+                  <li>Send Message</li>
+                  <li>Sending</li>
+                  <li>Sent</li>
+                </ul>
+              </button>
+            </div>
+
+            <div
+              class="form-status"
+              id="formStatus"
+              role="status"
+              aria-live="polite"
+            ></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="social-icon-list">
+        <!-- Facebook -->
+        <li>
+          <a
+            href="https://www.facebook.com/share/19G3KGYFWS/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Umme Mariya on Facebook"
+          >
+            <i class="fab fa-facebook-f icon"></i>
+          </a>
+        </li>
+
+        <!-- Instagram -->
+        <li>
+          <a
+            href="https://www.instagram.com/mariya_mahi56?igsi=bXlsZzNlejhjNmJq"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Umme Mariya on Instagram"
+          >
+            <i class="fab fa-instagram icon"></i>
+          </a>
+        </li>
+
+        <!-- Email -->
+        <li>
+          <a
+            href="mailto:ummemariya112@gmail.com"
+            aria-label="Email Umme Mariya"
+          >
+            <i class="fas fa-envelope icon"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        © <span id="year"></span> Umme Mariya. All rights reserved.
+      </p>
+    </footer>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="svg-definitions"
+      aria-hidden="true"
+    >
+      <symbol viewBox="0 0 16 16" id="circle">
+        <circle cx="8" cy="8" r="7.5"></circle>
+      </symbol>
+
+      <symbol viewBox="0 0 12 12" id="arrow">
+        <path
+          d="M2.7008908,5.37931459 C2.9224607,5.60207651 3.2826628,5.60304283 3.50542472,5.38147293 C3.52232305,5.36466502 3.53814843,5.34681177 3.55280728,5.32801875 L5.34805194,3.02646954 L5.34805194,10.3480519 C5.34805194,10.7081129 5.63993903,11 6,11 C6.36006097,11 6.65194806,10.7081129 6.65194806,10.3480519 L6.65194806,3.02646954 L8.44719272,5.32801875 C8.6404327,5.57575732 8.99791646,5.61993715 9.24565503,5.42669716 C9.26444805,5.41203831 9.28230129,5.39621293 9.2991092,5.37931459 C9.55605877,5.12098268 9.57132199,4.70855346 9.33416991,4.43193577 L6.75918715,1.42843795 C6.39972009,1.00915046 5.76841509,0.960656296 5.34912761,1.32012319 C5.31030645,1.35340566 5.27409532,1.38961679 5.24081285,1.42843795 L2.66583009,4.43193577 C2.42867801,4.70855346 2.44394123,5.12098268 2.7008908,5.37931459 Z"
+        ></path>
+      </symbol>
+
+      <symbol viewBox="0 0 12 12" id="check">
+        <path
+          d="M4.76499011,6.7673683 L8.2641848,3.26100386 C8.61147835,2.91299871 9.15190114,2.91299871 9.49919469,3.26100386 C9.51164115,3.27347582 9.52370806,3.28637357 9.53537662,3.29967699 C9.83511755,3.64141434 9.81891834,4.17816549 9.49919469,4.49854425 L5.18121271,8.82537365 C4.94885368,9.05820878 4.58112654,9.05820878 4.34876751,8.82537365 L2.50080531,6.97362503 C2.48835885,6.96115307 2.47629194,6.94825532 2.46462338,6.93495189 C2.16488245,6.59321455 2.18108166,6.0564634 2.50080531,5.73608464 C2.84809886,5.3880795 3.38852165,5.3880795 3.7358152,5.73608464 L4.76499011,6.7673683 Z"
+        ></path>
+      </symbol>
+    </svg>
+
+    <script src="contact.js"></script>
+  </body>
 </html>
